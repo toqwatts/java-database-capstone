@@ -1,4 +1,4 @@
-# Admin User Story
+# Doctor User Story
 
 **Title:**
 _As an Doctor, I need to be able to log in to the portal, so that I can manage my appointments._
