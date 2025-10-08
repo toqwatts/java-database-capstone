@@ -1,7 +1,7 @@
 # Admin User Story
 
 **Title:**
-_As an Patient, I need to be able to log out, so that I can secure my info._
+_As an Patient, I need to be able to log in, so that I can book an hour long consult with a doctor._
 
 **Acceptance Criteria:**
 1. Create appointments tables
