@@ -1,4 +1,4 @@
-# Admin User Story
+# Patient User Story
 
 **Title:**
 _As an Patient, I need to be able to log out, so that I can secure my info._
