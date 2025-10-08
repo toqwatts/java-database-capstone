@@ -1,4 +1,4 @@
-# Admin User Story
+# Patient User Story
 
 **Title:**
 _As an Patient, I need to be able to log in, so that I can manage my appointments._
