@@ -1,4 +1,4 @@
-# Admin User Story
+# Patient User Story
 
 **Title:**
 _As an Patient, I want to see a list of doctors, so that I can explore without logging in._
