@@ -1,4 +1,4 @@
-# Admin User Story
+# Patient User Story
 
 **Title:**
 _As an Patient, I need to be able to see my upcoming appointments, so that I can be prepared for my visit._
