@@ -26,7 +26,7 @@ public class Appointment {
 
     @Future
     @NotNull
-    private LocalDateTime appointmentDate;
+    private LocalDateTime appointmentTime;
 
     @NotNull
     private int status;
@@ -34,14 +34,14 @@ public class Appointment {
     // Getters and Setters
     @Transient
     private LocalDateTime getEndTime(){
-        return appointmentDate.plusHours(1);
+        return appointmentTime.plusHours(1);
     };
     @Transient
     private LocalDate getAppointmentDate(){
-        return this.appointmentDate.toLocalDate();
+        return this.appointmentTime.toLocalDate();
     }
     public LocalTime getAppointmentTimeOnly(){
-        return appointmentDate.toLocalTime();
+        return appointmentTime.toLocalTime();
     }
     public Long getId() {
         return id;
@@ -62,15 +62,6 @@ public class Appointment {
         return status;
     }
     public void setStatus(int status) {
-        this.status = status;
-    }
-
-
-    // Constructor
-    public Appointment(Doctor doctor, Patient patient, LocalDateTime appointmentDate, int status ){
-        this.doctor = doctor;
-        this.patient = patient;
-        this.appointmentDate = appointmentDate;
         this.status = status;
     }
 }
