@@ -28,7 +28,7 @@ public class Patient {
     private String password;
 
     @NotNull
-    @Pattern(regexp = "^[0-9]{10}$"))
+    @Pattern(regexp = "^[0-9]{10}$")
     private String phone;
 
     @NotNull

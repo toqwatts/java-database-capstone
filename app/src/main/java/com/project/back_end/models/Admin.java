@@ -37,7 +37,7 @@ public class Admin {
     public void setUsername(String username) {
         this.username = username;
     }
-    public String setPassword(String password) {
+    public void setPassword(String password) {
         this.password = password;
     }
 }
