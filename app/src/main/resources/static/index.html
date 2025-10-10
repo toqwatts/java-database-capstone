@@ -12,19 +12,24 @@
     <script src="./js/render.js" defer></script>
 </head>
 <body>
-<main>
-    <div class="container">
-        <div class="wrapper">
-            <div id="header"></div>
-            <div id="footer"></div>
-        </div>
-    </div>
+<div class="wrapper">
+    <!-- Header placeholder -->
+    <div id="header"></div>
+
+    <!-- Main Content -->
     <main class="main-content">
         <h2>Select Your Role</h2>
-        <button id="admin-button" onclick>Admin</button>
-        <button id="doctor-button" onclick>Doctor</button>
-        <button id="patient-button" onclick>Patient</button>
-        <div id="modal" class="modal" id="closeModal" id="modal-body"></div>
+        <button id="admin-button">Admin</button>
+        <button id="doctor-button">Doctor</button>
+        <button id="patient-button">Patient</button>
     </main>
-    <script type="module" src="../js/services/index.js" defer></script>
+
+    <!-- Footer placeholder -->
+    <div id="footer"></div>
+</div>
+
+<!-- Modal -->
+<div id="modal" class="modal">
+    <div id="modal-body"></div>
+</div>
 </body>
